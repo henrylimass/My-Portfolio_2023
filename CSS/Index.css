@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+        padding: 0;
+            
+}
+
+/*Barrade navegação*/
+.container{
+    border:5px solid white;
+}
+
+.container ul li {
+    display: inline;
+        padding: 15px;
+}
+
+ul {
+    text-align: right;
+        background-color: hsl(151, 100%, 50%, 0.7);
+            font-size: 20px;
+            padding: 15px 10px 15px 10px;
+}
+
+a {
+    text-decoration: none;
+        font-family: arial;
+            font-weight: bold;
+}
+
+li{
+    color: white;
+}
+
+li:hover{
+    color: #41fda2;
+}
+
+/*linha diagonal*/
+
+.degonal{
+display: flex;
+margin: 0;
+padding: 0;
+height: 100vh;
+overflow: hidden;
+}
+
+.metade-1{
+width: 50%;
+height: 100%;
+}
+
+.hr{
+    
+    background-color: black;
+    border: 2px solid blue;
+    transform-origin: bottom left;
+    transform: skewY(-20deg);
+}
+
+.metade-2{
+    width: 50%;
+    height: 100%;
+}
